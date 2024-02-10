@@ -1,5 +1,7 @@
 import React from 'react'
 
+import './App.css'
+
 import {
   AboutUs,
   Chef,
@@ -14,7 +16,7 @@ import {
 import { Navbar } from './components'
 
 const App = () => (
-    <div>
+  <div>
     <Navbar />
     <Header />
     <AboutUs />
