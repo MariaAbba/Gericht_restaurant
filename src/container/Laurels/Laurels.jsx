@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { images } from '../../constants'
+
 import './Laurels.css';
 
 const Laurels = () => (

@@ -1,11 +1,10 @@
-import React from 'react';
+import React from 'react'
 
-import './Chef.css';
+import { images } from '../../constants'
+import { SubHeading } from '../../components'
 
-const Chef = () => (
-  <div>
-    Chef
-  </div>
-);
+import './Chef.css'
 
-export default Chef;
+const Chef = () => <div>Chef</div>
+
+export default Chef
