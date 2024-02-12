@@ -1,0 +1,15 @@
+.app__wrapper_info {}
+
+.app__laurels_awards {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  margin-top: 3rem;
+}
+
+.app__wrapper_img {}
+
+.app__laurels_awards-card {}
+
+.app__laurels_awards-card_content {}

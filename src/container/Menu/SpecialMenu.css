@@ -83,3 +83,15 @@
     line-height: 48.5px;
   }
 }
+
+@media screen and (max-width:550px) {
+  .app__specialMenu-menu_img img {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width:390px) {
+  .app__specialMenu-menu_img img {
+    height: 550px;
+  }
+}
