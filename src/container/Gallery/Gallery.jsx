@@ -21,7 +21,7 @@ const Gallery = () => {
   const scrollRef = React.useRef(null)
 
   const scroll = (direction) => {
-    const { current } = scrollRef
+    const { current } = scrollRef;
 
     if (direction === 'left') {
       current.scrollLeft -= 300
@@ -44,13 +44,16 @@ const Gallery = () => {
         </p>
         <button className="custom__button">View More</button>
       </div>
-      
+
       <div className="app__gallery-images">
         <div className="app__gallery-images_container" ref={scrollRef}>
           {galleryImages.map((image, index) => (
-            <div className='app__gallery-images_card flex__center' key={`gallery_image-${index + 1}`}>
-              <img src={image} alt='gallery'/>
-              <BsInstagram className='gallery__image-icon'/>
+            <div
+              className="app__gallery-images_card flex__center"
+              key={`gallery_image-${index + 1}`}
+            >
+              <img src={image} alt="gallery" />
+              <BsInstagram className="gallery__image-icon" />
             </div>
           ))}
         </div>
