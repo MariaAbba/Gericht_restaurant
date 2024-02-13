@@ -111,10 +111,6 @@
     height: 550px;
   }
 
-  .app__gallery-images {
-    max-width: 100%;
-    margin: 5rem 0;
-  }
 }
 
 @media screen and (max-width: 1150px) {
